@@ -1,0 +1,37 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  color: #5f6368;
+}
+
+.ql-editor {
+  font-family: 'Arial', sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  padding: 1in;
+}
+
+.ql-container {
+  min-height: calc(100vh - 130px);
+}
+
+.document-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.document-container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.document-paper {
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  min-height: 1100px; /* Roughly letter size */
+  width: 100%;
+}
